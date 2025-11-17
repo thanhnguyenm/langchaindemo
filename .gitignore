@@ -149,3 +149,4 @@ site/
 AzuriteConfig
 backend/database/FreddyAI_Objects_Migration.sql
 backend/database/FreddyAI_Schemas_Migration.sql
+frontend/
