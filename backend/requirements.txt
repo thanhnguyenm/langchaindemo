@@ -1,0 +1,16 @@
+dotenv==0.9.9
+python-dotenv==1.1.1
+
+fastapi[standard]
+uvicorn
+langchain
+langchain-openai
+langchain-core
+
+# SQL Server Database Dependencies
+pyodbc>=4.0.39
+
+# JWT Authentication Dependencies
+PyJWT>=2.8.0
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4

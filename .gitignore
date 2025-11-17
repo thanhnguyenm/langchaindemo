@@ -1,0 +1,151 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+.env
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Node.js / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+*.coverage
+.nyc_output
+.pytest_cache/
+.tox/
+htmlcov/
+.coverage.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# Azurite (Azure Storage Emulator)
+__azurite_db_*
+__blobstorage__/
+__queuestorage__/
+__tablestorage__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Package manager lock files (optional - uncomment if you want to ignore)
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
+
+# Production build (frontend)
+freddyai/dist/
+frontend/dist/
+
+# Compiled assets
+backend/assets/
+freddyai/assets/
+
+# Secrets and credentials
+secrets/
+credentials/
+*.pem
+*.key
+*.cert
+
+# Azure
+.azure/
+
+# AI/ML models (if storing large model files)
+*.bin
+*.h5
+*.pkl
+*.pt
+*.pth
+models/
+
+# Documentation builds
+docs/_build/
+site/
+AzuriteConfig
+backend/database/FreddyAI_Objects_Migration.sql
+backend/database/FreddyAI_Schemas_Migration.sql
